@@ -1,0 +1,428 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+
+body{
+    
+    background-color: #f3f3f3;
+    font-size: 18px;
+    
+}
+
+.bento_grid{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width:100%;
+    gap:0;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    
+    
+}
+
+.column1{
+    display: flex;
+    flex-direction:column;
+    margin-top: 40px ;
+    gap:15px;
+    height: 100%;
+    width:15%;
+    margin-left: 0;
+}
+
+.grid_g{
+    width:100%;
+    height:50%;
+    background-color:  hsl(31, 66%, 93%);
+    
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.grid_g img{
+    
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.grid_h{ 
+    width:100%;
+    height:50%;
+    padding: 20px;
+    background-color:  hsl(39, 100%, 71%);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.grid_h img{
+    width: 225px;
+    height: 225px;
+    margin-top: 10px;
+    object-fit: contain;
+    
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:60%;   /*initially 80%*/
+    margin-top:0px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 45px;
+
+}
+
+.row1{
+    width:100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    gap:0;
+    
+}
+
+.x1{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:15px;
+    margin-top: 10px;
+
+}
+
+.y1{
+    width:92%;
+    height:45%;
+    padding: 20px;
+    background-color:  hsl(256, 67%, 59%);
+    border-radius: 20px;
+    overflow: hidden;
+   
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+   
+
+}
+
+.y2{
+    width:100%;
+    height:35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap:15px;
+
+}
+
+.grid_b{
+    height: 90%;
+    width:50%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.grid_b img{
+    height:60px;
+    width: 300px;
+    
+   
+}
+
+.grid_c{
+    height: 90%;
+    width: 50%;
+    padding: 20px;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.grid_c img{
+    height: 150px;
+    width:180px;
+    
+
+}
+
+
+.row2{
+    width:78%;
+    height:25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left:105px;
+    gap:15px;
+
+}
+
+.grid_f{
+    height: 95%;
+    width: 30%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    overflow: hidden;
+   
+
+}
+
+.grid_e{
+    height: 95%;
+    width: 75%;
+    padding: 20px;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+
+.x2{
+    width:20%;
+    height: 88%;
+    padding: 20px;
+    background-color:  hsl(254, 88%, 90%);
+    border-radius: 20px;
+    overflow: hidden;
+    
+    margin-left:30px;
+    margin-top: 40px;
+}
+
+.grid_d img{
+    height: 330px;
+    width:350px;
+    margin-top:10px;
+
+}
+
+.bento_a{
+    font-size: 2.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_b{
+    font-size: 2.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: hsl(39, 100%, 71%);
+
+}
+
+.bento_c{
+    font-size: 2.75rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_d{
+    font-size: 0.9rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.bento_e{
+    font-size: 1.5rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_f{
+    font-size: 1.5rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_g{
+    font-size:2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_h{
+    font-size: 0.9rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.bento_i{
+    font-size: 1.75rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_j{
+    font-size: 2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.bento_k{
+     font-size: 2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.sn3{
+     font-size: 2rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+    color: hsl(256, 67%, 59%);
+}
+
+.sn2{
+     font-size: 1rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.sn1{
+     font-size: 3.25rem;
+    font-family:'DM Sans', sans-serif;
+    font-weight: 500;
+}
+.grid_f img{
+    
+    height: 80px;
+    width:190px;
+    margin-top: 20px;
+  
+
+}
+
+.grid_e{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+}
+
+.grid_e img{
+    height:150px;
+    width:200px;
+    
+  
+}
+
+@media (max-width:700px){
+    .bento_grid{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        width:100%;
+        align-items:center;
+        gap:10px;
+        margin:0;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .column2, .x1, .x2, .y1, .y2, .row1, .row2, .column1{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+        width:95%;
+        align-items: center;
+        gap:10px;
+        margin:0;
+    }
+
+    .column2{
+        order: 1;
+    }
+
+    .column1{
+        order: 2;
+    }
+
+    .grid_a{
+        order:1;
+        width:100%;
+    }
+
+    .grid_b{
+        order: 2;
+        width:100%;
+    }
+
+    .grid_c{
+        order: 3;
+        width: 100%;
+        
+        
+    }
+
+    .grid_d{
+        order: 4;
+        width:100%;
+        text-align: center;
+    }
+
+    .grid_e{
+        order: 5;
+        width:80%;
+        height:300px;
+        display:grid;
+        grid-template-rows: 1fr 0.5fr;
+        grid-template-columns: 1fr;
+        text-align:center;
+        place-items: center;
+        
+
+    
+    }
+
+
+    .grid_f{
+        order: 6;
+        width:80%;
+       
+    }
+
+    .grid_g{
+        order: 7;
+        width:80%;
+        height:200px;
+        
+    }
+
+    .grid_h{
+        order: 8;
+        width:80%;
+        height:300px;
+    }
+
+    .grid_e img{
+        height: 200px;
+        width: 200px;
+    }
+
+    
+    
+
+
+}
